@@ -1,12 +1,21 @@
-import React, { Component } from 'react'
+import React, {useState} from 'react';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                hello world
-            </div>
-        )
-    }
+import OutfitCorsoul from './Carousels/OutfitCorsoul.jsx';
+import ProductCarousel from './Carousels/ProductCarousel.jsx';
+import ComparisonModal from './ComparisonModal.jsx';
+import Related from './Related.jsx';
+
+
+const App = () => {
+  const[data , setData] = useState();
+
+
+    return(
+        <div>
+           <OutfitCorsoul />
+           <ProductCarousel />
+           <ComparisonModal />
+           <Related/>
+        </div>
+    )
 }
-export default App
