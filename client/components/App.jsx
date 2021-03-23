@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+
 import OutfitCorsoul from './Carousels/OutfitCorsoul.jsx';
 import ProductCarousel from './Carousels/ProductCarousel.jsx';
 import ComparisonModal from './ComparisonModal.jsx';
@@ -7,7 +8,7 @@ import Related from './Related.jsx';
 
 
 const App = () => {
-  const[data , setData] = useState();
+
 
 
     return(
@@ -17,5 +18,6 @@ const App = () => {
            <ComparisonModal />
            <Related/>
         </div>
-    )
+    );
 }
+export default App ; 
