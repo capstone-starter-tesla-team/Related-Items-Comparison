@@ -47,7 +47,29 @@ const CardExampleCard = () => {
         </Card.Content>
         </div>
           )})}
-      </div>
+     
+
+
+
+        {data.map((elm,i)=>{
+            return(
+            <div key={i} style={customStyle.column} >
+         <Image  style={customStyle.card} src={elm} alt="Card image cap"   />
+
+    
+    
+        <Card.Content style={customStyle.Content}>title: ADIDAS
+        <Card.Header>Matthew</Card.Header>
+        <Card.Meta>
+        <span className='date'>Joined in 2015</span>
+        </Card.Meta>
+        <Card.Description>
+            Matthew is a musician living in Nashville.
+            </Card.Description>
+        </Card.Content>
+        </div>
+    )})}
+</div>
     )
 }
   
