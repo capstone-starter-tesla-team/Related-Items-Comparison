@@ -17,11 +17,12 @@ class Cardproduct extends Component {
       <div>
        
       <div className="card-product">
-        <div>
-       
-          
-          <img className="card-image" src={this.props.related.image}></img>
-        </div>
+      
+          <img className="card-image" src={this.props.related.image}></img> 
+      
+        <div className="favstar-position">
+            <input className="star1" type="checkbox" />
+          </div>
         <div className="card-category">
           <a> {this.props.related.category}</a>
         </div>
