@@ -1,5 +1,22 @@
-[
+[ {
   
+    "id": "11001",
+    "name":   "Camo Onesie",
+    "category": "Jackets",
+    "image": "https://images.unsplash.com/photo-1501088430049-71c79fa3283e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+    "price": "140.00"
+  
+  },
+  
+  {
+  "id": "11002",
+  "name":  "Bright Future Sunglasses",
+  "category": "Accessories",
+  "image": "https://images.unsplash.com/photo-1534011546717-407bced4d25c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+  "price": "69.00"
+
+},
+
     {
       "id": "11003",
       "name": "Morning Joggers",
@@ -17,10 +34,28 @@
     {
         "id": "11005",
        "name": "Heir Force Ones",
-         "category": "Pants",
-       "image": "https://images.unsplash.com/photo-1544441892-794166f1e3be?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+         "category": "Kicks",
+       "image": "https://images.unsplash.com/photo-1514590734052-344a18719611?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
          "price": "99.00"
-      }
+      },
+      {
+        "id":  "11006",
+        "name": "White",
+        "category":"Kicks",
+        "image": "https://images.unsplash.com/photo-1477420143023-6a0e0b04b69a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+        "price": "89.00"
+      
+      },
+{
+      "id":  "11007",
+      "name": "Blues Suede Shoes",
+      "category": "Dress Shoes",
+      "image": "https://images.unsplash.com/photo-1561861422-a549073e547a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80  ",
+      "price": "120.00"
+
+}
   
   ]
+
+  
   
