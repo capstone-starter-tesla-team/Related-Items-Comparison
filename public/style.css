@@ -16,7 +16,9 @@ body {
   margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40
+  width: 40;
+ 
+
 }
 /**
  * Represents image.
@@ -108,5 +110,25 @@ body {
   color: blue;
   width:20px;
   height:20px;
+
+}
+
+.modal fade {
+  width: 100px;
+}
+.col{
+  display: flex;
+
+}
+.modal-content {
+width: 50vw;
+
+
+}
+.modal-dialog{
+  
+  z-index: 9;
+  margin-bottom: 5px;
+  
 
 }

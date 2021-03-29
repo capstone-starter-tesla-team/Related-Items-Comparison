@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StarsRating from 'stars-rating';
+
 export default class Form extends Component {
 	render() {
 		return (
@@ -16,13 +17,17 @@ export default class Form extends Component {
 								<div className="modal-content">
 									<div className="modal-header">
 										<h5 className="modal-title" id="exampleModalLongTitle">
-											Modal title
+										Comparison caractéristique
 										</h5>
 										<button type="button" className="close" data-dismiss="modal" aria-label="Close">
 											<span aria-hidden="true">&times;</span>
 										</button>
 									</div>
 									<div className="modal-body">
+
+										<div className='container'>
+											<div className='row'>
+												<div className='col'>
 										<div className="card-product">
 											<img className="card-image" src={this.props.mydata.image} />
 
@@ -46,7 +51,39 @@ export default class Form extends Component {
 														name="rating"
 													/>
 												</span>
+									
+										</div>
+										</div>
+										
+									
+										<div className="card-product">
+											<img className="card-image" src={this.props.mydata.image} />
+
+											<div className="card-category">
+												<a>{this.props.mydata.category} </a>
 											</div>
+											<div className="card-title">
+											{this.props.mydata.name}
+												<span className="card-price">
+													<br />
+													{this.props.mydata.price}
+													<br />
+												</span>
+												<span>
+													<StarsRating
+														rating={5}
+														starRatedColor="orange"
+														starDimension="15px"
+														starSpacing="1px"
+														numberOfStars={5}
+														name="rating"
+													/>
+												</span>
+									
+										</div>
+										</div>
+											</div>
+										</div>
 										</div>
 									</div>
 									<div className="modal-footer">
