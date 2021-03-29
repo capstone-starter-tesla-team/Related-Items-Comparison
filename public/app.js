@@ -945,7 +945,7 @@ var Cardproduct = function (_Component) {
 							'div',
 							{ className: 'favstar-position' },
 							_react2.default.createElement('input', {
-								className: 'star1',
+								className: 'starx',
 								type: 'checkbox',
 								'data-toggle': 'modal',
 								'data-target': '#exampleModalLong',
@@ -1027,7 +1027,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import ProductCard from './components/ProductCard.jsx'
 // import OutfitCard from './components/OutfitCard.jsx'
-_reactDom2.default.render(_react2.default.createElement(_Related2.default, null), document.getElementById("root"));
+_reactDom2.default.render(_react2.default.createElement(_Related2.default, null), document.getElementById("services3"));
 
 /***/ }),
 /* 11 */

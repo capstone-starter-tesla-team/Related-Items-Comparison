@@ -85,7 +85,7 @@ body {
 .card-star:hover {
   color: orange;
 }
-.star1{
+.starx{
   visibility: hidden;
   font-family: 30px;
   cursor: pointer;
@@ -96,12 +96,12 @@ body {
   color: rgb(47, 129, 22);
   
 }
-.star1:before{
+.starx:before{
   content: "\2606";
   position: absolut;
   visibility: visible;
 }
-.star1:checked:before{
+.starx:checked:before{
   content: "\2605";
   position: absolute;
   visibility: visible;

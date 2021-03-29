@@ -28,7 +28,7 @@ class Cardproduct extends Component {
 					<div>
 						<div className="favstar-position">
 							<input
-								className="star1"
+								className="starx"
 								type="checkbox"
 								data-toggle="modal"
 								data-target="#exampleModalLong"
